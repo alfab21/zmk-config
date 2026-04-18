@@ -1,0 +1,6 @@
+if SHIELD_RH30
+
+config ZMK_KEYBOARD_NAME
+    default "RH30"
+
+endif
