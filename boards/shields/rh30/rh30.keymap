@@ -7,8 +7,8 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            bindings = <
-                &kp LALT  &mo 1  &kp V  &kp X  &kp Z  &kp LCTRL
+            bindings = 
+                &kp LALT  &mo 1     &kp V     &kp X     &kp Z     &kp LCTRL
                 &kp SPACE &kp B     &kp C     &kp D     &kp H     &kp LSHFT
                 &kp N     &kp F     &kp A     &kp S     &kp Y     &kp TAB
                 &kp G     &kp R     &kp E     &kp W     &kp Q     &kp DEL
@@ -17,7 +17,7 @@
         };
 
         fn_layer {
-            bindings = <
+            bindings = 
                 &trans        &trans        &trans        &trans        &trans        &trans
                 &trans        &trans        &trans        &trans        &trans        &trans
                 &trans        &trans        &trans        &trans        &trans        &trans
