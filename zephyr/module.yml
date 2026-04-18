@@ -1,6 +1,6 @@
 name: zmk-keyboard-rh30
 build:
-  cmake: .
-  kconfig: .
-  boards: boards
-  shields: boards/shields
+  west-commands: west-commands.yml
+  cmake-ext: true
+  kconfig-ext: true
+  boards-root: .
